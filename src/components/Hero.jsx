@@ -24,7 +24,7 @@ export function Hero() {
         </p>
       </div>
       <div className='flex justify-center lg:justify-between items-end'>
-        <div className='flex lg:flex-col gap-8 lg:gap-4 pb-12'>
+        <div className='flex lg:flex-col gap-8 lg:gap-4 pb-12 mt-12'>
           <Socials />
         </div>
         <div className='hidden lg:block relative -right-24'>
