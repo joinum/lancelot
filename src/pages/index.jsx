@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <div className="bg-gradient-to-l min-h-screen from-primary via-secondary to-primary overflow-x-hidden flex flex-col">
         <Header />
-        <main className='grow flex'>
+        <main className="grow flex">
           <Hero />
         </main>
       </div>

@@ -23,12 +23,12 @@ export function Hero() {
           Junho de 2023
         </p>
       </div>
-      <div className='flex justify-center lg:justify-between items-end'>
-        <div className='flex lg:flex-col gap-8 lg:gap-4 pb-12 mt-12'>
+      <div className="flex justify-center lg:justify-between items-end">
+        <div className="flex lg:flex-col gap-8 lg:gap-4 pb-12 mt-12">
           <Socials />
         </div>
-        <div className='hidden lg:block relative -right-24'>
-          <Image src={cords} alt='Hero cords' height={250} width={1000}/>
+        <div className="hidden lg:block relative -right-24">
+          <Image src={cords} alt="Hero cords" height={250} width={1000}/>
         </div>
       </div>
     </div>
