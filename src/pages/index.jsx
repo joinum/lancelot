@@ -12,12 +12,12 @@ export default function Home() {
           name="description"
         />
       </Head>
-      <div className="bg-gradient-to-l h-screen from-primary via-secondary to-primary">
+      <div className="bg-gradient-to-l min-h-screen from-primary via-secondary to-primary overflow-x-hidden flex flex-col">
         <Header />
-        <main>
+        <main className="grow flex">
           <Hero />
         </main>
-        </div>
+      </div>
     </>
   )
 }

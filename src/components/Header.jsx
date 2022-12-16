@@ -95,30 +95,30 @@ export function Header() {
   return (
     <header>
       <div className="pt-10 w-full lg:pt-14 px-8 lg:px-14 xl:px-20">
-        <nav className="relative z-50 flex items-center justify-between">
-          <div className="flex flex-row items-center space-x-1 text-white uppercase font-bold">
+        <nav className="relative z-50 flex flex-col lg:flex-row gap-3 items-center justify-between">
+          <div className="flex flex-row items-center space-x-1 text-white uppercase font-bold text-center">
             <NavLink href="#features">Last edition</NavLink>
-            <span class="select-none">|</span>
+            <span className="select-none">|</span>
             <NavLink href="#features">Be a sponsor</NavLink>
-            <span class="select-none">|</span>
+            <span className="select-none">|</span>
             <NavLink href="#testimonials">Join the team</NavLink>
           </div>
           <div className="flex gap-x-4 justify-center items-center sm:gap-x-8">
-              <Image
-                src={cesium}
-                width={100}
-                height={30} 
-              />
-              <Image
-                src={necc}
-                width={90}
-                height={30} 
-              />
-              <Image
-                src={nefum}
-                width={80}
-                height={30} 
-              />
+            <Image
+              src={cesium}
+              width={100}
+              height={30} 
+            />
+            <Image
+              src={necc}
+              width={90}
+              height={30} 
+            />
+            <Image
+              src={nefum}
+              width={80}
+              height={30} 
+            />
           </div>
         </nav>
       </div>
