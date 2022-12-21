@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>JOIN Job Platform</title>
+        <title>JOIN &apos;23</title>
         <meta
           name="description"
         />
