@@ -97,28 +97,32 @@ export function Header() {
       <div className="pt-10 w-full lg:pt-14 px-8 lg:px-14 xl:px-20">
         <nav className="relative z-50 flex flex-col lg:flex-row gap-3 items-center justify-between">
           <div className="flex flex-row items-center space-x-1 text-white uppercase font-bold text-center">
-            <NavLink href="#features">Last edition</NavLink>
+            <NavLink href="https://2022.join.di.uminho.pt">Last edition</NavLink>
             <span className="select-none">|</span>
-            <NavLink href="#features">Be a sponsor</NavLink>
-            <span className="select-none">|</span>
-            <NavLink href="#testimonials">Join the team</NavLink>
+            <NavLink href="mailto:join.uminho.di@gmail.com">Be a sponsor</NavLink>
           </div>
-          <div className="flex gap-x-4 justify-center items-center sm:gap-x-8">
-            <Image
-              src={cesium}
-              width={100}
-              height={30} 
-            />
-            <Image
-              src={necc}
-              width={90}
-              height={30} 
-            />
-            <Image
-              src={nefum}
-              width={80}
-              height={30} 
-            />
+          <div className="flex justify-center items-center">
+            <NavLink href="https://cesium.di.uminho.pt">
+              <Image
+                src={cesium}
+                width={100}
+                height={30} 
+              />
+            </NavLink>
+            <NavLink href="https://necc.di.uminho.pt">
+              <Image
+                src={necc}
+                width={90}
+                height={30} 
+              />
+            </NavLink>
+            <NavLink href="https://nefum.di.uminho.pt">
+              <Image
+                src={nefum}
+                width={80}
+                height={30} 
+              />
+            </NavLink>
           </div>
         </nav>
       </div>

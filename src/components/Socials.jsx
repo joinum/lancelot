@@ -4,7 +4,7 @@ export function Socials() {
   return (
     <>
       <Link
-        href=""
+        href="https://www.instagram.com/join_uminho/"
         className="group"
         aria-label="JOIN on Instagram"
       >
@@ -16,7 +16,7 @@ export function Socials() {
         </svg>
       </Link>
       <Link
-        href=""
+        href="https://www.linkedin.com/company/join-di-uminho/"
         className="group"
         aria-label="JOIN on Linkedin"
       >
@@ -28,7 +28,7 @@ export function Socials() {
         </svg>
       </Link>
       <Link
-        href=""
+        href="https://github.com/joinum/"
         className="group"
         aria-label="JOIN on GitHub"
       >
