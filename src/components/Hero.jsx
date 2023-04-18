@@ -20,7 +20,7 @@ export function Hero() {
           Jornadas de Informática
         </h1>
         <p className="mx-auto mt-10 max-w-2xl text-2xl tracking-[5px] text-white uppercase font-bold">
-          Junho de 2023
+          June 5th - 7th, 2023
         </p>
       </div>
       <div className="flex justify-center lg:justify-between items-end">
