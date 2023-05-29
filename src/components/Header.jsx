@@ -102,6 +102,8 @@ export function Header() {
             <NavLink href="mailto:join.uminho.di@gmail.com">Be a sponsor</NavLink>
             <span className="select-none">|</span>
             <NavLink href="https://docs.google.com/forms/d/e/1FAIpQLSf17JpuRM7vISzC7ETOb4NxMS6ZqWox-_JshkdrKAnw5UJ1Lw/viewform">Join our staff</NavLink>
+            <span className="select-none">|</span>
+            <NavLink href="https://www.eventbrite.pt/e/jornadas-de-informatica-23-tickets-639838944507">Enroll yourself</NavLink>
           </div>
           <div className="flex justify-center items-center">
             <NavLink href="https://cesium.di.uminho.pt">
